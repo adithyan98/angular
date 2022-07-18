@@ -1,0 +1,37 @@
+
+
+                Angular -  Front End Technology
+
+
+                        Bacic Commands
+                1.to create a project - ng new project name/ng new project name --routing
+
+                2.to run Angular Project - ng serve / ng serve --open
+
+                3.to generate components - ng g c component-name
+
+
+                        Basic Bulding Blocks
+
+                1. Modules - To import 3rd party - (root module -AppModule)
+
+                2.Component - To create html,css,ts file (root component - AppComponent)
+
+                3.Data binding - share data inside component
+
+                        3.1. One way binding -data shareing only one direction
+
+                        3.1.1 compenent(ts) to view(html)
+
+                                3.1.1.1 String interpulation - {{expression}}
+
+                                3.1.1.2 Property Binding - [attribute name]="Property Name"
+
+                        3.1.2 View (html) to component(ts)
+
+                                3.1.2.1 Event Binding (event name)="function-name()"
+
+                                3.1.2.2 Event Binding using $event (event name)="function-name($event)"
+
+                                3.1.2.3 Event binding Using template referencing variable - #variable name
+
