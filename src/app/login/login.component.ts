@@ -40,9 +40,28 @@ pswd=''
   }
 
   //user defined function
-  login(){
-    var acno = this.acno
-    var pswd = this.pswd
+  // login(){
+  //   var acno = this.acno
+  //   var pswd = this.pswd
+
+  //   let userDetails = this.userDetails
+
+  //   if(acno in userDetails){
+  //     if(pswd == userDetails[acno].password){
+  //     alert('login successfull')
+  //   }
+  //   else{
+  //     alert('user does not Exist')
+  //   }
+  //   }
+  //   else{
+  //     alert('user does not Exist')
+  //   }
+  // }
+
+  login(a:any,p:any){
+    var acno = a.value
+    var pswd = p.value
 
     let userDetails = this.userDetails
 
@@ -51,12 +70,11 @@ pswd=''
       alert('login successfull')
     }
     else{
-      alert('user does not Exist')
+      alert('Incorrect Password')
     }
     }
     else{
       alert('user does not Exist')
     }
   }
-
 }
