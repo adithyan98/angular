@@ -10,16 +10,18 @@
 
                 3.to generate components - ng g c component-name
 
+                3.to generate services - ng g c service-name
 
-                        Basic Bulding Blocks
 
-                1. Modules - To import 3rd party - (root module -AppModule)
+                                Basic Bulding Blocks
 
-                2.Component - To create html,css,ts file (root component - AppComponent)
+        1. Modules - To import 3rd party - (root module -AppModule)
 
-                3.Data binding - share data inside component
+        2.Component - To create html,css,ts file (root component - AppComponent)
 
-                        3.1. One way binding -data shareing only one direction
+        3.Data binding - share data inside component
+
+                3.1. One way binding -data sharing only one direction
 
                         3.1.1 compenent(ts) to view(html)
 
@@ -35,3 +37,45 @@
 
                                 3.1.2.3 Event binding Using template referencing variable - #variable name
 
+                3.2. Two way binding -data sharing in both direction 
+
+                        3.2.1. ngModel - import FormsModule in AppModule
+                        -[(ngModel)]="property-name",property-name should defined in ts file
+
+
+                4.Angular Routing - to set path for component in app-routing-modules  
+                  -{path:value,component:class-name}
+                  - use router - outlet selector inside a root component
+
+                5. Dependency Injecnction - Share data between dependent classes
+
+                6. ngSubmit - 
+
+                7. Angular services  - to hold redundant data
+
+                8. Angular Directives - to manipulate DOM
+
+                        8.1 Component Directives
+
+                        8.2 Structural Directive 
+
+                                8.2.1 *ngFor -
+
+                                8.2.2 *ngIf
+
+                        9. Angular Forms
+
+                                9.1 Template Driven Forms  - first design html
+
+                                9.2 Model Driven Forms - first design ts file 
+
+                                        9.2.1 Reactive Forms - Form Group , Array , Control
+                                                - Add validations
+
+                                                - import RecativeFormsModule
+
+
+
+
+
+                
